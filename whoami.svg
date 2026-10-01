@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" role="img" aria-labelledby="title desc">
+  <title id="title">Francisco Javier Gómez Pulido — AI Lead &amp; Data Scientist</title>
+  <desc id="desc">Dark terminal profile card with Francisco's role and expertise areas.</desc>
+  <defs>
+    <linearGradient id="border-grad" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#4a7ab5"/>
+      <stop offset="0.45" stop-color="#7070b8"/>
+      <stop offset="1" stop-color="#4aaec0"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-40%" width="150%" height="180%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="380" rx="16" fill="#06091a"/>
+  <rect x="1.5" y="1.5" width="957" height="377" rx="15" fill="none" stroke="url(#border-grad)" stroke-width="1.5"/>
+
+  <!-- Title bar -->
+  <rect width="960" height="48" rx="14" fill="#0a0e22"/>
+  <rect y="34" width="960" height="14" fill="#0a0e22"/>
+  <rect y="46" width="960" height="2" fill="#111528"/>
+  <circle cx="32" cy="24" r="5.5" fill="#ff5f57"/>
+  <circle cx="52" cy="24" r="5.5" fill="#febc2e"/>
+  <circle cx="72" cy="24" r="5.5" fill="#28c840"/>
+  <text x="98" y="29" fill="#3a4260" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">fragompul  ·  profile.sh  ·  zsh</text>
+
+  <!-- ── LEFT PANEL ── -->
+  <rect x="20" y="60" width="590" height="300" rx="10" fill="#090d1e" stroke="#111528" stroke-width="1.5"/>
+
+  <!-- whoami command -->
+  <text x="40" y="93" fill="#4aaec0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" filter="url(#glow)">❯ whoami</text>
+
+  <!-- Full name -->
+  <text x="40" y="117" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="600">Francisco Javier Gómez Pulido</text>
+  <text x="40" y="136" fill="#8a8ec8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">AI Lead &amp; Data Scientist</text>
+
+  <!-- divider -->
+  <line x1="40" y1="150" x2="598" y2="150" stroke="#111528" stroke-width="1"/>
+
+  <!-- Profile fields -->
+  <text x="40" y="170" fill="#52607a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">location:</text>
+  <text x="168" y="170" fill="#4aaec0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Sevilla, España 🇪🇸</text>
+
+  <text x="40" y="189" fill="#52607a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">role:</text>
+  <text x="168" y="189" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">AI Lead @ Aapex</text>
+
+  <text x="40" y="208" fill="#52607a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">education:</text>
+  <text x="168" y="208" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Double Major Maths &amp; CS · MSc AI</text>
+
+  <!-- cat expertise.txt command -->
+  <text x="40" y="244" fill="#4aaec0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" filter="url(#glow)">❯ cat expertise.txt</text>
+
+  <text x="40" y="266" fill="#7070b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">mathematics:</text>
+  <text x="168" y="266" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Optimization · Numerical Methods · Stats · Linear Algebra</text>
+
+  <text x="40" y="284" fill="#7070b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">ml &amp; dl:</text>
+  <text x="168" y="284" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Transformers · DRL · CNNs · LSTMs · Time Series · CV</text>
+
+  <text x="40" y="302" fill="#7070b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">genai &amp; llms:</text>
+  <text x="168" y="302" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">RAG · Agents · Fine-tuning (LoRA) · Diffusion Models</text>
+
+  <text x="40" y="320" fill="#7070b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">mlops:</text>
+  <text x="168" y="320" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Docker · K8s · MLflow · FastAPI · ONNX · CI/CD</text>
+
+  <text x="40" y="338" fill="#7070b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">languages:</text>
+  <text x="168" y="338" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Python · R · SQL · MATLAB · JavaScript · Java</text>
+
+  <!-- ── RIGHT PANEL ── -->
+  <rect x="628" y="60" width="312" height="300" rx="10" fill="#090d1e" stroke="#111528" stroke-width="1.5"/>
+
+  <text x="648" y="90" fill="#7070b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">system.status</text>
+  <line x1="648" y1="100" x2="928" y2="100" stroke="#111528" stroke-width="1"/>
+
+  <!-- Decorative concentric rings -->
+  <circle cx="784" cy="196" r="72" fill="none" stroke="#4aaec0" stroke-width="0.5" opacity=".15"/>
+  <circle cx="784" cy="196" r="52" fill="none" stroke="#7070b8" stroke-width="0.5" opacity=".18"/>
+  <circle cx="784" cy="196" r="32" fill="none" stroke="#4a7ab5" stroke-width="0.5" opacity=".22"/>
+  <circle cx="784" cy="196" r="66" fill="#4aaec0" opacity=".03"/>
+  <circle cx="784" cy="196" r="46" fill="#7070b8" opacity=".04"/>
+  <circle cx="784" cy="196" r="26" fill="#4a7ab5" opacity=".07"/>
+
+  <!-- Horizontal scan lines (dark overlay on circles) -->
+  <path d="M648 155H928M648 169H928M648 183H928M648 197H928M648 211H928M648 225H928M648 239H928" stroke="#090d1e" stroke-width="5.5" opacity=".92"/>
+
+  <!-- Signal waveforms -->
+  <path d="M648 252C688 222 722 282 766 250S848 228 928 258" fill="none" stroke="#4aaec0" stroke-width="2.5" filter="url(#glow)"/>
+  <path d="M648 268C692 238 724 298 770 266S852 248 928 274" fill="none" stroke="#7070b8" stroke-width="1.6" opacity=".6"/>
+  <path d="M648 282C694 254 726 312 772 280S854 263 928 288" fill="none" stroke="#4a7ab5" stroke-width="1.1" opacity=".4"/>
+
+  <line x1="648" y1="302" x2="928" y2="302" stroke="#111528" stroke-width="1"/>
+  <text x="648" y="320" fill="#52607a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">status: building · researching</text>
+  <text x="648" y="338" fill="#52607a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">        learning · shipping</text>
+  <text x="648" y="356" fill="#252e48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">signal: nominal  ·  uptime: ∞</text>
+</svg>
